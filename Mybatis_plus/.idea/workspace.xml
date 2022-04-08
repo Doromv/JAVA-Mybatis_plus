@@ -36,6 +36,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -43,14 +44,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GitHub\JAVA-Mybatis_plus\Mybatis_plus\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.testSaveBatch">
+  <component name="RunManager" selected="JUnit.MybatisPlusPluginsTest.pageTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -62,7 +63,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMapperTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisPlusPluginsTest.pageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mybatis_plus" />
       <extension name="coverage">
         <pattern>
@@ -71,14 +72,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.doromv.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.doromv.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="testInsert" />
+      <option name="MAIN_CLASS_NAME" value="com.doromv.mapper.MybatisPlusPluginsTest" />
+      <option name="METHOD_NAME" value="pageTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMapperTest.testSelectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisPlusWrapperTest.select3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mybatis_plus" />
       <extension name="coverage">
         <pattern>
@@ -87,24 +88,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.doromv.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.doromv.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="testSelectList" />
+      <option name="MAIN_CLASS_NAME" value="com.doromv.mapper.MybatisPlusWrapperTest" />
+      <option name="METHOD_NAME" value="select3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.testSaveBatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisPlusWrapperTest.select4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mybatis_plus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.doromv.service.*" />
+          <option name="PATTERN" value="com.doromv.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.doromv.service" />
-      <option name="MAIN_CLASS_NAME" value="com.doromv.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="testSaveBatch" />
+      <option name="PACKAGE_NAME" value="com.doromv.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.doromv.mapper.MybatisPlusWrapperTest" />
+      <option name="METHOD_NAME" value="select4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusWrapperTest.select5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis_plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doromv.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.doromv.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.doromv.mapper.MybatisPlusWrapperTest" />
+      <option name="METHOD_NAME" value="select5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusWrapperTest.update4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis_plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doromv.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.doromv.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.doromv.mapper.MybatisPlusWrapperTest" />
+      <option name="METHOD_NAME" value="update4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,9 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceTest.testSaveBatch" />
-        <item itemvalue="JUnit.UserMapperTest.testInsert" />
-        <item itemvalue="JUnit.UserMapperTest.testSelectList" />
+        <item itemvalue="JUnit.MybatisPlusPluginsTest.pageTest" />
+        <item itemvalue="JUnit.MybatisPlusWrapperTest.update4" />
+        <item itemvalue="JUnit.MybatisPlusWrapperTest.select5" />
+        <item itemvalue="JUnit.MybatisPlusWrapperTest.select4" />
+        <item itemvalue="JUnit.MybatisPlusWrapperTest.select3" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +168,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1649387598553</updated>
-      <workItem from="1649387600970" duration="1471000" />
+      <workItem from="1649387600970" duration="4267000" />
+      <workItem from="1649398701371" duration="8723000" />
+      <workItem from="1649415375786" duration="4173000" />
     </task>
     <servers />
   </component>

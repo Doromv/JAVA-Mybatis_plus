@@ -27,7 +27,7 @@ public class UserServiceTest {
         ArrayList<User> users = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
             User user = new User();
-            user.setName("ybc" + i);
+            user.setName("Doromv" + i);
             user.setAge(20 + i);
             users.add(user);
         }

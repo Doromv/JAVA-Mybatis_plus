@@ -22,16 +22,19 @@ public class UserMapperTest {
     @Test
     public void testSelectList() {
     //selectList()根据MP内置的条件构造器查询一个list集合，null表示没有条件，即查询所有
-        userMapper.selectList(null).forEach(System.out::println);
+//        HashMap<String, Object> map = new HashMap<>();
+//        map.put("uid",5);
+//        userMapper.selectByMap(map).forEach(System.out::println);
+        System.out.println(userMapper.selectList(null));
     }
-    @Test
-    public void testInsert(){
-        User user = new User(null, "张三", 23, "zhangsan@atguigu.com");
-//INSERT INTO user ( id, name, age, email ) VALUES ( ?, ?, ?, ? )
-        int result = userMapper.insert(user);
-        System.out.println("受影响行数："+result);
-        System.out.println("id自动获取："+user.getId());
-    }
+//    @Test
+//    public void testInsert(){
+//        User user = new User(null, "张三", 23, "zhangsan@atguigu.com");
+////INSERT INTO user ( id, name, age, email ) VALUES ( ?, ?, ?, ? )
+//        int result = userMapper.insert(user);
+//        System.out.println("受影响行数："+result);
+//        System.out.println("id自动获取："+user.getId());
+//    }
     @Test
     public void testDeleteById(){
 //通过id删除用户信息
@@ -53,17 +56,17 @@ public class UserMapperTest {
 //DELETE FROM user WHERE name = ? AND age = ?
         Map<String, Object> map = new HashMap<>();
         map.put("age", 23);
-        map.put("name", "张三");
+        map.put("user_name", "张三");
         int result = userMapper.deleteByMap(map);
         System.out.println("受影响行数："+result);
     }
-    @Test
-    public void testUpdateById(){
-        User user = new User(4L, "admin", 22, null);
-//UPDATE user SET name=?, age=? WHERE id=?
-        int result = userMapper.updateById(user);
-        System.out.println("受影响行数："+result);
-    }
+//    @Test
+//    public void testUpdateById(){
+//        User user = new User(4L, "admin", 22, null);
+////UPDATE user SET name=?, age=? WHERE id=?
+//        int result = userMapper.updateById(user);
+//        System.out.println("受影响行数："+result);
+//    }
     @Test
     public void testSelectById(){
 //根据id查询用户信息

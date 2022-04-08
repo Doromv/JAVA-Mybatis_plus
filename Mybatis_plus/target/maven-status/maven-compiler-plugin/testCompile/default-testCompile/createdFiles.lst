@@ -1,0 +1,3 @@
+com\doromv\MybatisPlusApplicationTests.class
+com\doromv\mapper\UserMapperTest.class
+com\doromv\service\UserServiceTest.class
