@@ -1,7 +1,7 @@
 package com.doromv.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.pojo.User;
+import com.doromv.pojo.User;
 import org.springframework.stereotype.Service;
 
 /**

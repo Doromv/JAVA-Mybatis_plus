@@ -1,6 +1,6 @@
 package com.doromv.mapper;
 
-import com.pojo.User;
+import com.doromv.pojo.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

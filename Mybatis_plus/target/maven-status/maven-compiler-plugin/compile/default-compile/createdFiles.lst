@@ -1,5 +1,9 @@
 com\doromv\mapper\UserMapper.class
-com\pojo\User.class
 com\doromv\MybatisPlusApplication.class
+com\doromv\mapper\ProductMapper.class
 com\doromv\service\UserService.class
+com\doromv\config\MybatisPlusConfig.class
+com\doromv\pojo\Product.class
 com\doromv\service\impl\UserServiceImpl.class
+com\doromv\enums\SexEnum.class
+com\doromv\pojo\User.class

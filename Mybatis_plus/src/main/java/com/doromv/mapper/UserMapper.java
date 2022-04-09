@@ -1,7 +1,9 @@
 package com.doromv.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.pojo.User;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.doromv.pojo.User;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -10,4 +12,5 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface UserMapper extends BaseMapper<User> {
+    Page<User> selectPageVo(Page<User> page, Integer age);
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.doromv.mapper.UserMapper">
+<select id="selectPageVo" resultType="user">
+    select uid,user_name,age,email
+    from mybatis_plus.t_user
+    where age>#{age}
+</select>
+</mapper>
