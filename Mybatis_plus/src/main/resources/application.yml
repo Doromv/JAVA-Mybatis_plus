@@ -1,10 +1,20 @@
 spring:
   datasource:
-    type: com.zaxxer.hikari.HikariDataSource
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mybatis_plus?characterEncoding=utf8&useSSL=false
-    username: root
-    password: QAQm..02r
+    dynamic:
+#      配置默认数据源
+      primary: master
+      strict: false
+      datasource:
+        master:
+          url: jdbc:mysql://localhost:3306/mybatis_plus?characterEncoding=utf8&useSSL=false
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          username: root
+          password: QAQm..02r
+        slave_1:
+          url: jdbc:mysql://localhost:3306/mybatis_plus_1?characterEncoding=utf8&useSSL=false
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          username: root
+          password: QAQm..02r
 mybatis-plus:
   configuration:
 #    设置日志

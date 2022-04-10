@@ -1,8 +1,0 @@
-com\doromv\MybatisPlusApplicationTests.class
-com\doromv\mapper\MybatisPlusEnumTest.class
-com\doromv\mapper\MybatisPlusPluginsTest.class
-com\doromv\service\UserServiceTest.class
-com\doromv\mapper\MybatisPlusWrapperTest.class
-com\doromv\mapper\ProductMapperTest.class
-com\doromv\mapper\FastAutoGeneratorTest.class
-com\doromv\mapper\UserMapperTest.class

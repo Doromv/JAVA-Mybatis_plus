@@ -1,5 +1,6 @@
 package com.doromv.service.impl;
 
+import com.baomidou.dynamic.datasource.annotation.DS;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.doromv.mapper.UserMapper;
 import com.doromv.service.UserService;
@@ -10,6 +11,7 @@ import org.springframework.stereotype.Service;
  * @author Doromv
  * @create 2022-04-08-11:34
  */
+@DS("master")
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper,User> implements UserService {
 }

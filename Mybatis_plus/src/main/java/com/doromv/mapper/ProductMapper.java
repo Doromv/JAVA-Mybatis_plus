@@ -1,9 +1,6 @@
 package com.doromv.mapper;
-
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.doromv.pojo.Product;
-import com.doromv.pojo.User;
 import org.springframework.stereotype.Repository;
 
 /**
